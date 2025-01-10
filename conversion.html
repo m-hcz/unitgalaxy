@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Galaxy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="main">
+      <header>
+        <div class="header-titile">
+          <h1>Unit Galaxy</h1>
+          <h3>Unit</h3>
+        </div>
+        <a class="back-button" href="/">
+          <img width="28" height="28" style="padding-right: 10px;"
+            src="https://img.icons8.com/ios-filled/28/FFFFFF/chevron-left.png" alt="chevron-left" />
+        </a>
+      </header>
+      <main>
+        <div class="conversion">
+          <section class="column" id="conversion-section">
+            <h2 id="value-title">Value</h2>
+            <div class="value-section">
+
+              <input type="number" id="input-value" placeholder="Enter a value">
+              <select id="input-unit">
+              </select>
+            </div>
+          </section>
+
+          <section class="column" id="results-section">
+            <h2>Conversion results</h2>
+            <div class="value-section" id="conversion-results"></div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="about-content">
+
+    <div class="about-disclaimer">
+      <p>Disclaimer: The website operator is not responsible for damages caused by possible errors in unit conversions
+        on this website.</p>
+    </div>
+  </div>
+  <footer class="note">
+    <p>Icons by <a class="underline" target="_blank" href="https://icons8.com/">icons8.com.</a></p>
+    <p>Copyright Ⓒ <span id="year"></span> <a class="underline" target="_blank" href="https://msharp.cz/">msharp.cz</a>.
+      All
+      Rights Reserved.</p>
+    <a href="mailto:info@msharp.cz">
+      <img src="images/web/icon-email.svg">
+    </a>
+
+  </footer>
+  <script src="conversion.js"></script>
+</body>
+
+</html>
